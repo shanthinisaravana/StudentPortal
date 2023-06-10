@@ -1,0 +1,104 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: url(Front.png);
+	object-fit: cover;
+	justify-content: center;
+	align-items: center;
+}
+
+.whiteBG{
+	position: relative;
+	padding: 40px;
+	margin-top: 60px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 60px;
+	background: rgba(255,255,255,.5);
+}
+
+.whiteBG h1{
+	text-align: center;
+	color: #610C04;
+}
+
+.whiteBG p{
+	text-align: center;
+}
+
+.whiteBG h3{
+	text-align: center;
+	color: blue;
+}
+
+.whiteBG h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.whiteBG .contentBx{
+	justify-content: center;
+}
+
+.whiteBG form h2{
+	margin-bottom: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  opacity: 1;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  margin: 0 auto 0px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 45px;
+  padding-top: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1), 0 5px 5px 0 rgba(0, 0, 0, 1);
+}
+
+form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #111111;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: white;
+}
+
+form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
